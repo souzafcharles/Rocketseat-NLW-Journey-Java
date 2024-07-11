@@ -10,7 +10,7 @@
 
 :white_square_button: IDE used: IntelliJ IDEA 
 
-:coffee: Java version: :one::eight:
+:coffee: Java version: :two::one:
 
 ---
 ### Lesson 1: Plann.er
