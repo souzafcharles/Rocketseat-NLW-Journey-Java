@@ -134,6 +134,8 @@ In this lesson, we will implement all functionalities related to trip activities
     
 - [X] Extract core trip logic into a Service class
 - [X] Map exceptions within our application with custom error handling
-
+      
+##
+### :scroll: [Certificate of participation](https://github.com/souzafcharles/Rocketseat-NLW-Journey-Java/blob/master/CERTIFICATE.pdf)
 ##
 # More Information :link: [Rocketseat | NLW Journey ](https://www.rocketseat.com.br/eventos/nlw)
