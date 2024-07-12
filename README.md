@@ -70,60 +70,60 @@
     }
 ```
 
-- [ ]  Create project using [Spring Initializr](https://start.spring.io/)
+- [X]  Create project using [Spring Initializr](https://start.spring.io/)
     - Spring Web
     - Flyway
     - Dev Tools
     - Lombok
     - JPA
     - H2 Database
-- [ ]  Configure database in the application
-- [ ]  Create migration for `trips` table creation
+- [X]  Configure database in the application
+- [X]  Create migration for `trips` table creation
     - Migration files represent changes to our database structure
         - create a table
         - alter table, remove field, add a field
         - install driver
         - bulk data insertion, default data
     - Migration files ⇒ SQL scripts, run commands in the database
-- [ ]  Create entities representing a `Trip`
-- [ ]  Create repository for the trip entity
-- [ ]  Create endpoint for trip creation **`POST /trips`**
-- [ ]  Create endpoint for trip retrieval **`GET /trips/{tripId}`**
+- [X]  Create entities representing a `Trip`
+- [X]  Create repository for the trip entity
+- [X]  Create endpoint for trip creation **`POST /trips`**
+- [X]  Create endpoint for trip retrieval **`GET /trips/{tripId}`**
 
 ##
 ### Lesson 2: Plann.er
 
 In that lesson, we implemented the remaining functionalities for trips and participant registration and confirmation.
 
-- [ ] Create endpoint for trip update **`PUT /trips/{tripId}`**
-- [ ] Create endpoint for trip confirmation **`GET /trips/{tripId}/confirm`**
-- [ ] Create `Participant` table
-- [ ] Create entity representing a `Participant`
-- [ ] Create repository for the participant entity
-- [ ] Create endpoint for participant confirmation **`POST /participants/{participantId}/confirm`**
-- [ ] Create endpoint for inviting participant **`POST /trips/{tripId}/invites`**
-- [ ] Create endpoint for querying participants **`GET /trips/{tripId}/participants`**
+- [X] Create endpoint for trip update **`PUT /trips/{tripId}`**
+- [X] Create endpoint for trip confirmation **`GET /trips/{tripId}/confirm`**
+- [X] Create `Participant` table
+- [X] Create entity representing a `Participant`
+- [X] Create repository for the participant entity
+- [X] Create endpoint for participant confirmation **`POST /participants/{participantId}/confirm`**
+- [X] Create endpoint for inviting participant **`POST /trips/{tripId}/invites`**
+- [X] Create endpoint for querying participants **`GET /trips/{tripId}/participants`**
 ##
 ### Lesson 3: Plann.er
 
 In this lesson, we will implement all functionalities related to trip activities and links:
 
-- [ ] Create `Activities` table
-- [ ] Create entity representing an `Activity`
-- [ ] Create repository for the activity entity
-- [ ] Create endpoint for activity creation **`POST /trips/{tripId}/activities`**
-- [ ] Create endpoint for querying activities of a trip **`GET /trips/{tripId}/activities`**
-- [ ] Create `Links` table
-- [ ] Create entity representing a `Link`
-- [ ] Create repository for the link entity
-- [ ] Create endpoint for link creation **`POST /trips/{tripId}/links`**
-- [ ] Create endpoint for querying links of a trip **`GET /trips/{tripId}/links`**
+- [X] Create `Activities` table
+- [X] Create entity representing an `Activity`
+- [X] Create repository for the activity entity
+- [X] Create endpoint for activity creation **`POST /trips/{tripId}/activities`**
+- [X] Create endpoint for querying activities of a trip **`GET /trips/{tripId}/activities`**
+- [X] Create `Links` table
+- [X] Create entity representing a `Link`
+- [X] Create repository for the link entity
+- [X] Create endpoint for link creation **`POST /trips/{tripId}/links`**
+- [X] Create endpoint for querying links of a trip **`GET /trips/{tripId}/links`**
 
 ## Additional Features
 
-- [ ] Add validation for date fields
-    - [ ] Start date of the trip must be before end date of the trip
-    - [ ] Activity date must fall within the trip dates
+- [X] Add validation for date fields
+    - [X] Start date of the trip must be before end date of the trip
+    - [X] Activity date must fall within the trip dates
     
     **Example:**
     Trip from July 20th to July 25th in Rio de Janeiro
@@ -132,8 +132,8 @@ In this lesson, we will implement all functionalities related to trip activities
     
     ⇒ Activity on July 21st
     
-- [ ] Extract core trip logic into a Service class
-- [ ] Map exceptions within our application with custom error handling
+- [X] Extract core trip logic into a Service class
+- [X] Map exceptions within our application with custom error handling
 
 ##
 # More Information :link: [Rocketseat | NLW Journey ](https://www.rocketseat.com.br/eventos/nlw)
