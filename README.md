@@ -121,9 +121,9 @@ In this lesson, we will implement all functionalities related to trip activities
 
 ## Additional Features
 
-- [X] Add validation for date fields
-    - [X] Start date of the trip must be before end date of the trip
-    - [X] Activity date must fall within the trip dates
+- [ ] Add validation for date fields
+    - [ ] Start date of the trip must be before end date of the trip
+    - [ ] Activity date must fall within the trip dates
     
     **Example:**
     Trip from July 20th to July 25th in Rio de Janeiro
@@ -132,8 +132,8 @@ In this lesson, we will implement all functionalities related to trip activities
     
     ⇒ Activity on July 21st
     
-- [X] Extract core trip logic into a Service class
-- [X] Map exceptions within our application with custom error handling
+- [ ] Extract core trip logic into a Service class
+- [ ] Map exceptions within our application with custom error handling
       
 ##
 ### :scroll: [Certificate of participation](https://github.com/souzafcharles/Rocketseat-NLW-Journey-Java/blob/master/CERTIFICATE.pdf)
